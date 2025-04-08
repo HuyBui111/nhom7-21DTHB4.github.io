@@ -164,5 +164,5 @@ Dự án phát hành theo giấy phép [MIT License](LICENSE)
 
 ---
 
-> Made with ❤️ by [Nhom7WithLuv]
+> Made with ❤️ by Nhom7WithLuv
 
