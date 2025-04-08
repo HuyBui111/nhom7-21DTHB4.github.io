@@ -50,8 +50,8 @@ Dự án được xây dựng bằng **ASP.NET Core MVC**, sử dụng **Entity 
 
 ### 1. Clone dự án
 ```bash
-git clone https://github.com/your-username/online-course-app.git
-cd online-course-app
+git clone https://github.com/HuyBui111/nhom7-21DTHB4.github.io
+cd nhom7-21DTHB4.github.io
 ```
 
 ### 2. Cấu hình database
