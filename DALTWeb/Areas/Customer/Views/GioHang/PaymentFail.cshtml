@@ -1,0 +1,142 @@
+﻿<div class="payment-error-container">
+    <div class="error-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#e74c3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="15" y1="9" x2="9" y2="15"></line>
+            <line x1="9" y1="9" x2="15" y2="15"></line>
+        </svg>
+    </div>
+
+    <h1 class="error-title">Thanh toán VNPay thất bại!</h1>
+
+    <p class="error-message">
+        Rất tiếc, giao dịch của bạn không thể hoàn tất. Vui lòng kiểm tra thông tin thanh toán và thử lại.
+    </p>
+
+    <div class="error-details">
+        <div class="detail-item">
+            <span class="detail-label">Mã giao dịch:</span>
+            <span class="detail-value">VNP1234567890</span>
+        </div>
+        <div class="detail-item">
+            <span class="detail-label">Thời gian:</span>
+            <span class="detail-value">08/04/2025 15:30:45</span>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <button class="retry-button">Thử lại</button>
+        <button class="other-method-button">Phương thức khác</button>
+    </div>
+
+    <div class="support-info">
+        <p>Cần hỗ trợ? <a href="#">Liên hệ bộ phận CSKH</a> hoặc gọi số <strong>1900 xxxx</strong></p>
+    </div>
+</div>
+
+<style>
+    .payment-error-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        padding: 40px 30px;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .error-icon {
+        margin-bottom: 24px;
+    }
+
+    .error-title {
+        color: #e74c3c;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .error-message {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+    .error-details {
+        background-color: #f9f9f9;
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 24px;
+    }
+
+    .detail-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+    }
+
+    .detail-label {
+        color: #888;
+        font-weight: 500;
+    }
+
+    .detail-value {
+        color: #333;
+        font-weight: 600;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .retry-button {
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .retry-button:hover {
+            background-color: #c0392b;
+        }
+
+    .other-method-button {
+        background-color: #f1f1f1;
+        color: #555;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .other-method-button:hover {
+            background-color: #e5e5e5;
+        }
+
+    .support-info {
+        margin-top: 20px;
+        color: #777;
+        font-size: 14px;
+    }
+
+        .support-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+            .support-info a:hover {
+                text-decoration: underline;
+            }
+</style>
